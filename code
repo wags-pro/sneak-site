@@ -1,0 +1,101 @@
+ <head>
+<title id="asa">Quizzes pro - A new level of learning</title>
+<link rel="icon" href="qz.png">
+</head>
+
+
+
+<div id="srch" class="aee">
+<input type="text" placeholder="search for quizzes here" id="hi"></input>
+<button onclick="hi()">search</button>
+</div>
+
+<br>
+<h1>Math Section - Geometry - 3D Models</h1>
+<br>
+<p>.</p>
+<div style="width: 700px; text-align: center;">
+<p id="hii">what is the closest radius of a sphere inscribed in a cylinder with height 5 and surface area 240?</p>
+<br>
+<img src="dd.png" alt="loldwip">
+<br>
+<hr>
+<div>
+<input type="radio" id="html" name="fav_language" value="HTML">
+<label for="html" id="hi1">5.6</label><br>
+<input type="radio" id="css" name="fav_language" value="CSS">
+<label for="css" id="hi2">4.2</label><br>
+<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+<label for="javascript" id="hi3">3.9</label>
+<br>
+<input type="radio" id="javascriptr" name="fav_language" value="JavaScript">
+<label for="javascriptr" id="hi4">4.8</label>
+<br>
+<br>
+<button style="border-radius: 5px;" onclick="lol()">submit</button>
+</div>
+
+<img class="asd" src="lol.png" alt="lolwip">
+<iframe class="asp" height="300" width="550" src="https://hcpss.instructure.com" id="hakf"></iframe>
+<br>
+</div>
+
+
+<script>
+
+
+function hi() {
+var url = document.getElementById("hi").value;
+document.getElementById("hakf").src = url;
+
+}
+
+function lol() {
+const ballz = ["What is the height of a cylinder with surface area 1592.5 and inscribed in a cube", "what is the surface area + the volume of a hemishpere with radius 2?", "what is the volume of a cylinder with surface area 530 and height 5"]
+
+let bb = ballz[Math.floor(Math.random() * 3)]; 
+
+hii.innerHTML = bb;
+
+}
+
+
+
+
+function as() {
+var p = document.getElementById("po").value;
+if (p == "" || p == null) {
+ase.style.width = 0;
+} else {
+asa.innerHTML = "inbox - " + p;
+ase.style.width = 0;
+}
+}
+
+
+</script>
+
+<style>
+.aee {
+overflow-x: hidden;
+}
+
+body {
+background-color: white;
+
+}
+
+.asd {
+position: absolute;
+bottom: 3px;
+left: 750px;
+
+}
+.asp {
+position: absolute;
+bottom: 275px;
+left: 750px;
+
+}
+
+</style>
